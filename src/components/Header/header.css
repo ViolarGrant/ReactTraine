@@ -1,0 +1,27 @@
+nav{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.Burger{
+  background-color: transparent;
+  border: 0px;
+  display: none;
+}
+
+.contactMe{
+  display: flex;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+}
+
+@media (max-width:390px){
+  .Burger {
+    display: flex;
+  }
+  .header_nav {
+    display: none;
+  }
+}
